@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useState } from 'react'
 
 function Footer() {
@@ -11,8 +11,8 @@ function Footer() {
     ]
 
     const [display, setDisplay] = useState("Popular")
-    const [histories, setHistories] = useState("Historic")
-    const [coastaly, setCoastaly] = useState("Coastal")
+    // const [histories, setHistories] = useState("Historic")
+    // const [coastaly, setCoastaly] = useState("Coastal")
     return (
         
         <div className='ml-8' >
@@ -55,7 +55,7 @@ function Footer() {
             
 
             {/* for histories */}
-            
+{/*             
              { histories === "Historic" &&
                 <div className='hidden md:grid grid-cols-6'> 
                 {dynamicText.splice(0,4).map((text) => (
@@ -75,7 +75,7 @@ function Footer() {
                             </a>
                              ))}
            </div>        
-             }
+             } */}
 
              {/* for coastal */}
               {/* { coastaly === "Coastal" &&

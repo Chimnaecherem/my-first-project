@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import logo from '../../assets/icons/logo.svg'
 import search from '../../assets/icons/search.svg'
 import globe from '../../assets/icons/globe.svg'
 import photo from '../../assets/icons/photo.svg'
 import menu from '../../assets/icons/menu-01.svg'
-import Login from '../Main/Login'
+// import Login from '../Main/Login'
 import facebook from "../../assets/icons/Facebook.svg"
 import Google from "../../assets/icons/google.png"
 import Apple from "../../assets/icons/apple.png"

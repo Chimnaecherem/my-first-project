@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useState } from 'react'
 
 import amazingViews from '../../assets/icons/Amazing views.png'
