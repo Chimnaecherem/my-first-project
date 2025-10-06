@@ -1,4 +1,4 @@
-      import React,  from 'react'
+      import React  from 'react'
     //   import { useState } from 'react'
 import logo from '../../assets/icons/logo.svg'
 import search from '../../assets/icons/search.svg'
@@ -56,6 +56,3 @@ function SignLogin() {
 }
 
 export default SignLogin 
-  
-
-
