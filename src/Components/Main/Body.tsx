@@ -47,15 +47,16 @@ function Body() {
         { photo: image19, text1: "Half Moon Bay, California,US", icon: star, textNum: "5.0", text2: "Beach and ocean views", text3: "22-27 Oct individal Host", price: "€1,634 total" },
         { photo: image20, text1: "Half Moon Bay, California,US", icon: star, textNum: "5.0", text2: "Beach and ocean views", text3: "22-27 Oct individal Host", price: "€1,634 total" }
     ]
+    
     return (
         <div>
 
             {/* image mapping */}
-            <div className=' mt-8 grid grid-cols-2 md:grid-cols-4 justify-items-center' >
+            <div className='mt-8 grid gap-4 grid-cols-2 md:grid-cols-4 justify-items-center' >
                 {
-                    imageAndCaption.map((photos) => (
-                        <figure className='mt-3 mb-10 w-[320px]'>
-                            <img src={photos.photo} alt="image 1" className='w-full h-[284px]' />
+                    imageAndCaption.map((photos) => (       
+                        <figure className='mt-3 mb-10 w-full'>
+                            <img src={photos.photo} alt="image 1" className='w-full' />
 
                             <figcaption>
                                 <div className='items-center flex flex-col-2 justify-between'>

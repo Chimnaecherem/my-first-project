@@ -82,9 +82,9 @@ function Logo() {
                                 <div>
                                     {/* email */}
                                     {login2 ?
-                                        <div className='border-2 w-full h-12 border-gray-300 rounded-xl mb-3'>
-                                            <label htmlFor="" className=''>email</label>
-                                            <input type="email" placeholder='Email' className='w-full focus:ring-0 px-3 h-12' />
+                                        <div className='border-2 w-full border-gray-300 rounded-xl mb-3 px-4 py-2'>
+                                            <label htmlFor="" className=''>email...</label>
+                                            <input type="email" placeholder='Email' className='w-full focus:outline-none' />
                                         </div> :
                                         <div className='px-3'>
                                             <select name="" id="" className='border w-full'>
